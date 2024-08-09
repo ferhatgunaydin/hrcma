@@ -1,6 +1,6 @@
 // src/firebase.js
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore"; // For newer SDK versions
+import { getFirestore, collection, addDoc, deleteDoc, doc, onSnapshot } from "firebase/firestore";
 
 const firebaseConfig = {
     apiKey: "AIzaSyChmx3J9-ApyEr8aBk8FMPs_dxhBpyf5HU",
